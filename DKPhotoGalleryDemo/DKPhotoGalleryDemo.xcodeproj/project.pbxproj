@@ -140,7 +140,7 @@
 				TargetAttributes = {
 					9CC954231F63F51200B32CA9 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 7MLVDVH5PU;
+						DevelopmentTeam = 377QUTV8AL;
 						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 					};
@@ -373,7 +373,7 @@
 			baseConfigurationReference = F64EB454C6A4CFEC60F3E347 /* Pods-DKPhotoGalleryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7MLVDVH5PU;
+				DEVELOPMENT_TEAM = 377QUTV8AL;
 				INFOPLIST_FILE = DKPhotoGalleryDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -388,7 +388,7 @@
 			baseConfigurationReference = 2CD20709011A5B5CE41858F0 /* Pods-DKPhotoGalleryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7MLVDVH5PU;
+				DEVELOPMENT_TEAM = 377QUTV8AL;
 				INFOPLIST_FILE = DKPhotoGalleryDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
