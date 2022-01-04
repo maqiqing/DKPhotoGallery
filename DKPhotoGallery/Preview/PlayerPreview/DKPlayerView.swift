@@ -372,13 +372,24 @@ open class DKPlayerView: UIView {
                                                           attribute: .notAnAttribute,
                                                           multiplier: 1,
                                                           constant: 40))
-        self.controlView.addConstraint(NSLayoutConstraint(item: self.closeButton,
-                                                          attribute: .top,
-                                                          relatedBy: .equal,
-                                                          toItem: self.controlView,
-                                                          attribute: .top,
-                                                          multiplier: 1,
-                                                          constant: 25))
+        
+        if #available(iOS 11.0, *) {
+            self.controlView.addConstraint(NSLayoutConstraint(item: self.closeButton,
+                                                              attribute: .top,
+                                                              relatedBy: .equal,
+                                                              toItem: self.controlView.safeAreaLayoutGuide,
+                                                              attribute: .top,
+                                                              multiplier: 1,
+                                                              constant: 25))
+        } else {
+            self.controlView.addConstraint(NSLayoutConstraint(item: self.closeButton,
+                                                              attribute: .top,
+                                                              relatedBy: .equal,
+                                                              toItem: self.controlView,
+                                                              attribute: .top,
+                                                              multiplier: 1,
+                                                              constant: 25))
+        }
         self.controlView.addConstraint(NSLayoutConstraint(item: self.closeButton,
                                                           attribute: .left,
                                                           relatedBy: .equal,
