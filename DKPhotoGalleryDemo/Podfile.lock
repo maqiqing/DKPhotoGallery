@@ -22,10 +22,10 @@ PODS:
   - DKPhotoGallery/Resource (0.0.16):
     - SDWebImage
     - SwiftyGif
-  - SDWebImage (5.12.1):
-    - SDWebImage/Core (= 5.12.1)
-  - SDWebImage/Core (5.12.1)
-  - SwiftyGif (5.4.1)
+  - SDWebImage (5.8.0):
+    - SDWebImage/Core (= 5.8.0)
+  - SDWebImage/Core (5.8.0)
+  - SwiftyGif (5.3.0)
 
 DEPENDENCIES:
   - DKPhotoGallery (from `../`)
@@ -41,9 +41,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DKPhotoGallery: 1a594b53aca51f5def7ba70666632a4276b7e770
-  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
-  SwiftyGif: 6895c887f5551618a3c5dd3ecb512419105bacca
+  SDWebImage: 84000f962cbfa70c07f19d2234cbfcf5d779b5dc
+  SwiftyGif: e466e86c660d343357ab944a819a101c4127cb40
 
 PODFILE CHECKSUM: a473ad59ee5f797d3db4f4e5c10e3addc401c09b
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.8.4

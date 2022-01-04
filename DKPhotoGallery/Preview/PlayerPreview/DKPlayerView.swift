@@ -352,6 +352,7 @@ open class DKPlayerView: UIView {
         self.addSubview(self.bufferingIndicator)
         
         self.closeButton.setImage(DKPhotoGalleryResource.closeVideoImage(), for: .normal)
+        self.closeButton.backgroundColor = .black
         self.closeButton.addTarget(self, action: #selector(close), for: .touchUpInside)
         self.controlView.addSubview(self.closeButton)
         self.closeButton.translatesAutoresizingMaskIntoConstraints = false
