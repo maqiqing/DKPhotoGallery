@@ -209,9 +209,9 @@ open class DKPhotoBasePreviewVC: UIViewController, UIScrollViewDelegate, DKPhoto
             singleTapGesture?.require(toFail: doubleTapGesture)
         }
         
-        let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(longPressAction(gesture:)))
-        longPressGesture.minimumPressDuration = 0.5
-        self.view.addGestureRecognizer(longPressGesture)
+//        let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(longPressAction(gesture:)))
+//        longPressGesture.minimumPressDuration = 0.5
+//        self.view.addGestureRecognizer(longPressGesture)
     }
     
     private func startFetchContent() {
